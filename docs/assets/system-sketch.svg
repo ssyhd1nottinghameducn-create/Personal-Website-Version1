@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="610" viewBox="0 0 660 610" fill="none">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#a6c9ae" stroke-opacity=".1"/></pattern>
+    <pattern id="chip-grid" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M12 0H0V12" stroke="#a6c9ae" stroke-opacity=".12"/></pattern>
+    <linearGradient id="board" x1="-180" y1="-180" x2="180" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#3d5b47"/><stop offset="1" stop-color="#263e31"/></linearGradient>
+    <linearGradient id="chip" x1="-60" y1="-60" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#d7ed93"/><stop offset="1" stop-color="#a7bf70"/></linearGradient>
+  </defs>
+  <path fill="url(#grid)" d="M0 0h660v610H0z"/>
+  <circle cx="330" cy="297" r="254" stroke="#78947b" stroke-opacity=".2" stroke-dasharray="3 9"/>
+  <ellipse cx="330" cy="407" rx="245" ry="75" fill="#10241c" fill-opacity=".5"/>
+  <path d="m330 108 270 135v35L330 413 60 278v-35L330 108Z" fill="#172d22" stroke="#6c8662"/>
+  <path d="M60 243v35l270 135v-35L60 243Z" fill="#20372a"/><path d="m600 243-270 135v35l270-135v-35Z" fill="#14291f"/>
+  <path d="m60 263 270 135 270-135" stroke="#8ba568" stroke-opacity=".5"/>
+  <g transform="translate(330 243) matrix(.375 .1875 -.375 .1875 0 0)">
+    <rect x="-360" y="-360" width="720" height="720" rx="22" fill="url(#board)" stroke="#829c69" stroke-width="2"/>
+    <path d="M-323-323H323V323H-323Z" stroke="#74916b" stroke-opacity=".3" stroke-width="2" stroke-dasharray="5 7"/>
+    <g stroke="#728f64" stroke-width="3">
+      <path d="M-310-250h90l70 70v85h60m400-155h-80l-70 70v85H90M-310 260h90l70-70v-95h60m400 165h-80l-70-70v-95H90"/>
+      <path d="M-310-215h65l65 65v80h90m400-145h-55l-65 65v80H90M-310 225h65l65-65v-90h90m400 155h-55l-65-65v-90H90"/>
+      <path d="M-60-95V-220l-60-60v-30m240 0v30L60-220v125M-60 95V220l-60 60v30m240 0v-30L60 220V95"/>
+    </g>
+    <g stroke="#d2ed5e" stroke-width="5" stroke-linejoin="round">
+      <path d="M-300 0h90l60-60h60M0-300v100l30 30v75M90 0h100l65 65h45M0 95v125l-80 80"/>
+    </g>
+    <g fill="#d2ed5e"><circle cx="-300" r="7"/><circle cy="-300" r="7"/><circle cx="300" cy="65" r="7"/><circle cx="-80" cy="300" r="7"/></g>
+    <g stroke="#a1b481" stroke-width="9">
+      <path d="M-90-60h-24m24 24h-24m24 24h-24m24 24h-24m24 24h-24m24 24h-24M90-60h24M90-36h24M90-12h24M90 12h24M90 36h24M90 60h24M-60-90v-24m24 24v-24m24 24v-24m24 24v-24m24 24v-24m24 24v-24M-60 90v24m24-24v24m24-24v24m24-24v24m24-24v24m24-24v24"/>
+    </g>
+    <rect x="-90" y="-74" width="180" height="180" rx="6" fill="#172b22" stroke="#778760" stroke-width="2"/>
+    <rect x="-90" y="-90" width="180" height="180" rx="6" fill="url(#chip)" stroke="#e1eeaf" stroke-width="2"/>
+    <rect x="-74" y="-74" width="148" height="148" fill="url(#chip-grid)" stroke="#879e59"/>
+    <g font-family="Arial,sans-serif" fill="#20372e" text-anchor="middle"><text y="14" font-size="76" font-weight="700" letter-spacing="-6">hd.</text><text y="48" font-size="14" letter-spacing="4">SYSTEMS</text></g>
+    <g fill="#253f30" stroke="#87a175" stroke-width="2"><rect x="-290" y="-150" width="85" height="34" rx="4"/><rect x="205" y="140" width="85" height="34" rx="4"/><rect x="150" y="-285" width="40" height="95" rx="4"/><rect x="-190" y="195" width="40" height="95" rx="4"/></g>
+    <g stroke="#b0bd8a" stroke-width="3"><path d="M-275-144v22m15-22v22m15-22v22m15-22v22m450 268v22m15-22v22m15-22v22m15-22v22M156-270h28m-28 16h28m-28 16h28M-184 210h28m-28 16h28m-28 16h28"/></g>
+    <g fill="#1a3024" stroke="#b7bc85" stroke-width="3"><circle cx="-310" cy="-310" r="13"/><circle cx="310" cy="-310" r="13"/><circle cx="310" cy="310" r="13"/><circle cx="-310" cy="310" r="13"/></g>
+    <path d="M-285 110h65v65h-65Z" stroke="#a1b481" stroke-width="2"/><path d="M-273 143h9l6-16 9 32 7-16h10" stroke="#d2ed5e" stroke-width="3"/>
+  </g>
+  <g stroke="#aec393" stroke-width="1"><path d="m193 187-52-73H65"/><circle cx="193" cy="187" r="4" fill="#d2ed5e"/><path d="m457 304 72 68h82"/><circle cx="457" cy="304" r="4" fill="#d2ed5e"/><path d="m281 365-59 91H72"/><circle cx="281" cy="365" r="4" fill="#d2ed5e"/></g>
+  <g fill="#c8d7b5" font-family="Consolas,monospace" font-size="12" letter-spacing="1.5"><text x="65" y="97">01 / POWER</text><text x="516" y="394">02 / SENSE</text><text x="73" y="479">03 / CONTROL</text></g>
+  <g transform="translate(417 36)"><rect width="184" height="85" rx="5" fill="#1c3228" stroke="#6f875f"/><path d="M12 43h160M47 12v61m45-61v61m45-61v61" stroke="#546e50" stroke-opacity=".4"/><path d="M12 44c10 0 11-24 23-24s12 46 24 46 12-46 24-46 12 46 24 46 12-46 24-46 12 25 24 25h17" stroke="#d2ed5e" stroke-width="2"/><circle cx="172" cy="45" r="3" fill="#d2ed5e"/></g>
+  <path d="M330 509v31m-15-15h30" stroke="#91a875" stroke-width="1"/><path d="M41 42h18m-9-9v18m552 479h18m-9-9v18" stroke="#91a875"/>
+  <text x="330" y="575" fill="#92a685" font-family="Consolas,monospace" font-size="10" letter-spacing="3" text-anchor="middle">AN IDEA IS ONLY THE BEGINNING</text>
+</svg>

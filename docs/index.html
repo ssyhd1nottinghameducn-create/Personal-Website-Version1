@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f3eb">
+    <meta name="description" content="Han Dong is a fourth-year Electrical and Electronic Engineering undergraduate at UNNC, exploring power electronics, embedded systems, and the space between theory and working hardware.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Han Dong — Ideas into working systems">
+    <meta property="og:description" content="Electrical and Electronic Engineering at UNNC. Selected projects in power conversion, sensing, and embedded control.">
+    <title>Han Dong — Electrical &amp; Electronic Engineering</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner shell">
+        <a class="brand" href="#home" aria-label="Han Dong, home">
+          <span class="brand-mark" aria-hidden="true">h<span>d</span><i></i></span>
+          <span class="brand-name">Han Dong<span>Electrical &amp; Electronic Engineering</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>
+          <span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+          <a href="#work" data-nav>Work</a>
+          <a href="#about" data-nav>About</a>
+          <a href="#experience" data-nav>Experience</a>
+          <a class="nav-contact" href="#contact" data-nav>Let’s talk <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Han Dong <span class="eyebrow-divider">/</span> <span lang="zh-CN">董寒</span></p>
+          <h1 id="hero-title">Ideas into<br><em>working</em><br>systems<span class="lime-period">.</span></h1>
+          <p class="hero-description">I’m an electrical and electronic engineering student who likes connecting the theory to the thing that actually works.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-location"><span class="small-cross" aria-hidden="true">+</span> Fourth-year undergraduate <span class="separator">·</span> UNNC, China</p>
+        </div>
+        <figure class="hero-figure">
+          <div class="figure-topline"><span>THE WAY I THINK</span><span>FIG. 01 <span aria-hidden="true">↗</span></span></div>
+          <img class="hero-art" src="assets/system-sketch.svg" alt="Original conceptual drawing connecting power, sensing, and control around a central integrated circuit." width="660" height="610" fetchpriority="high">
+          <figcaption><span class="figure-caption-title">Everything is connected.</span><span>Power. Signals. Control.<br>A conceptual systems sketch.</span></figcaption>
+          <span class="figure-corner corner-tl" aria-hidden="true"></span><span class="figure-corner corner-br" aria-hidden="true"></span>
+        </figure>
+      </section>
+
+      <div class="discipline-strip" aria-label="Areas of interest">
+        <div class="shell discipline-inner"><span>POWER ELECTRONICS</span><span class="strip-star" aria-hidden="true">✳</span><span>EMBEDDED SYSTEMS</span><span class="strip-star" aria-hidden="true">✳</span><span>HANDS-ON ENGINEERING</span><span class="strip-star" aria-hidden="true">✳</span><span>ALWAYS CURIOUS</span></div>
+      </div>
+
+      <section class="work-section section-space shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div><p class="eyebrow section-index">01 / SELECTED WORK</p><h2 id="work-title">From the notebook<br>to the <em>workbench.</em></h2></div>
+          <p class="section-intro">A few things I’ve designed, built, and debugged.<br> Each one taught me something different.</p>
+        </div>
+        <div class="work-toolbar">
+          <div class="project-filters" role="group" aria-label="Filter selected projects" hidden>
+            <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All work <span>03</span></button>
+            <button class="filter-button" type="button" data-filter="power" aria-pressed="false">Power electronics</button>
+            <button class="filter-button" type="button" data-filter="embedded" aria-pressed="false">Embedded systems</button>
+          </div>
+          <p class="work-count" id="work-count" role="status" aria-live="polite">3 selected projects</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured" data-category="power">
+            <div class="project-visual visual-power">
+              <div class="visual-label"><span>01 / POWER CONVERSION</span><span>50 W</span></div>
+              <img src="assets/power-supply.svg" alt="Conceptual illustration of a dual-switch forward power supply, with a transformer, switching stage, and output filter." width="760" height="450" loading="lazy">
+              <span class="illustration-label">CONCEPT ILLUSTRATION</span>
+            </div>
+            <div class="project-copy">
+              <div class="project-meta"><span>COURSE PROJECT · TEAM MEMBER</span><span>FEB — MAY 2026</span></div>
+              <h3>Small supply.<br> Full engineering journey.</h3>
+              <p>A 50 W dual-switch forward power supply, from converter calculations and PLECS models to a two-layer PCB, hand-wound magnetics, and hardware testing.</p>
+              <div class="project-result"><span class="result-symbol" aria-hidden="true">↘</span><div><strong>0.5 V → 0.12 V</strong><span>100 Hz ripple with advanced compensation<br><b>Simulation result</b></span></div></div>
+              <ul class="tags" aria-label="Technologies"><li>PLECS</li><li>KiCad</li><li>Feedback control</li></ul>
+              <a class="project-link" href="#notes-power" data-project="power">Explore project <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="embedded">
+            <div class="project-visual visual-radar">
+              <div class="visual-label"><span>02 / SENSING &amp; SIGNALS</span><span aria-hidden="true">↗</span></div>
+              <img src="assets/radar-system.svg" alt="Conceptual radar signal chain: a detected target, a conditioned waveform, digital frequency extraction, and a display." width="640" height="400" loading="lazy">
+              <span class="illustration-label">CONCEPT ILLUSTRATION</span>
+            </div>
+            <div class="project-copy">
+              <div class="project-meta"><span>COURSE PROJECT · TEAM MEMBER</span><span>SEP 2025 — JAN 2026</span></div>
+              <h3>Making motion measurable.</h3>
+              <p>A Doppler radar speedometer connecting an analog front end, STM32 frequency analysis, and a CPLD-driven digital display.</p>
+              <ul class="tags" aria-label="Technologies"><li>STM32</li><li>FFT</li><li>Verilog</li></ul>
+              <a class="project-link" href="#notes-radar" data-project="radar">Explore project <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="embedded">
+            <div class="project-visual visual-vehicle">
+              <div class="visual-label"><span>03 / EMBEDDED CONTROL</span><span aria-hidden="true">↗</span></div>
+              <img src="assets/smart-vehicle.svg" alt="Conceptual top-down drawing of a four-wheel vehicle following a path, with sensing and feedback annotations." width="640" height="400" loading="lazy">
+              <span class="illustration-label">CONCEPT ILLUSTRATION</span>
+            </div>
+            <div class="project-copy">
+              <div class="project-meta"><span>COURSE PROJECT · TEAM MEMBER</span><span>SEP 2024 — MAY 2025</span></div>
+              <h3>A platform that finds its way.</h3>
+              <p>A four-wheel smart vehicle combining motor control, wireless communication, PID line following, and OpenCV vision-based navigation.</p>
+              <ul class="tags" aria-label="Technologies"><li>Arduino</li><li>Raspberry Pi</li><li>OpenCV</li></ul>
+              <a class="project-link" href="#notes-vehicle" data-project="vehicle">Explore project <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-notes" aria-label="Project details">
+          <details id="notes-power">
+            <summary>50 W power supply — project notes</summary>
+            <div class="notes-body">
+              <p class="eyebrow">POWER ELECTRONICS / FEB — MAY 2026</p>
+              <h3>Design, simulate, build, compare.</h3>
+              <p>The aim was to build a 50 W dual-switch forward converter and compare how two feedback compensators handled output ripple. This was a university team project; the work below describes my contributions.</p>
+              <h4>What I worked on</h4>
+              <ul><li>Calculated transformer ratio, output filter values, duty cycle, and component ratings.</li><li>Built ideal, non-ideal, and closed-loop PLECS models, comparing a basic integral controller with an advanced compensator.</li><li>Designed a two-layer KiCad PCB and hand-wound the main transformer, driver transformer, and output inductor.</li><li>Tested the PWM drive and compensation networks at full and light loads, and assessed thermal behaviour using simulation and infrared measurements.</li></ul>
+              <h4>What the results showed</h4>
+              <p>In simulation, the advanced compensator reduced 100 Hz low-frequency ripple from approximately 0.5 V to 0.12 V. Hardware tests confirmed the same trend: lower ripple with advanced compensation under AC input.</p>
+              <p class="notes-takeaway">The practical connection: control design, magnetic components, PCB layout, and thermal behaviour all influence the same output.</p>
+            </div>
+          </details>
+          <details id="notes-radar">
+            <summary>Doppler radar speedometer — project notes</summary>
+            <div class="notes-body">
+              <p class="eyebrow">SENSING &amp; EMBEDDED SYSTEMS / SEP 2025 — JAN 2026</p>
+              <h3>From a small signal to a useful readout.</h3>
+              <p>A university team project that took the output of an HB100 Doppler radar through analog conditioning, digital frequency extraction, and a numerical speed display.</p>
+              <h4>What I worked on</h4>
+              <ul><li>Designed an OP07-based active bandpass filter with a target passband of 78–1169 Hz, and an MCP6002 Schmitt comparator for waveform shaping.</li><li>Developed STM32U575 firmware for timer-triggered ADC sampling and CMSIS-DSP FFT analysis.</li><li>Wrote Verilog for an XC2C64A CPLD, including UART reception, clock division, and seven-segment display decoding.</li><li>Integrated the analog and digital stages and tested with hand-swept and moving targets.</li></ul>
+              <h4>What the results showed</h4>
+              <p>The integrated system detected moving targets and displayed real-time speed values. The project validated the complete signal chain, from a weak radar return to a digital readout.</p>
+              <p class="notes-takeaway">The practical connection: useful sensing depends on the entire chain, from analog signal quality to firmware and display logic.</p>
+            </div>
+          </details>
+          <details id="notes-vehicle">
+            <summary>Embedded smart vehicle — project notes</summary>
+            <div class="notes-body">
+              <p class="eyebrow">EMBEDDED SYSTEMS / SEP 2024 — MAY 2025</p>
+              <h3>Many small systems. One moving platform.</h3>
+              <p>A university team project built around Arduino Nano and Raspberry Pi, progressing from a basic four-wheel platform to vision-assisted navigation and multi-task control.</p>
+              <h4>What I worked on</h4>
+              <ul><li>Assembled the platform and implemented H-bridge motor drive, encoder feedback, I²C communication, and a local control interface.</li><li>Integrated RF and Bluetooth remote control, along with an MPU6050 motion sensor.</li><li>Developed PID line following using infrared sensors and an eight-sensor weighted-average approach.</li><li>Used OpenCV for colour-based path recognition and task-board identification, with a state machine to manage task execution and ultrasonic sensing for parking.</li></ul>
+              <h4>What the results showed</h4>
+              <p>The vehicle completed line following, colour-triggered responses, integrated tasks, and autonomous parking. Testing involved both hardware debugging and control-algorithm tuning.</p>
+              <p class="notes-takeaway">The practical connection: reliable autonomy comes from integrating sensing, control, communication, and clear system states.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="about-section section-space" id="about" aria-labelledby="about-title">
+        <div class="shell about-layout">
+          <div class="about-intro">
+            <p class="eyebrow section-index">02 / A LITTLE ABOUT ME</p>
+            <h2 id="about-title">Curiosity first.<br><em>Engineering</em> follows.</h2>
+            <div class="about-monogram" aria-hidden="true"><span>h<span>d</span><i></i></span><div class="monogram-orbit"></div><small>POWER · SIGNALS · SYSTEMS</small></div>
+          </div>
+          <div class="about-content">
+            <p class="large-copy">I’m Han Dong, a fourth-year undergraduate at the University of Nottingham Ningbo China.</p>
+            <p>I’m studying for a BEng (Hons) in Electrical and Electronic Engineering, with expected graduation in July 2027. My interests span efficient power conversion, motor losses, and embedded sensing and control.</p>
+            <p>I enjoy following a problem from the first calculation through simulation and circuit design to the practical work of getting hardware to behave. Laboratory research and industry placements have given me different ways to approach that process.</p>
+            <div class="academic-stats">
+              <div><strong>82<span>/100</span></strong><span>Year 3 average</span></div>
+              <div><strong>Top 10<span>%</span></strong><span>Year 3 standing</span></div>
+              <div><strong>2027</strong><span>Expected graduation · July</span></div>
+            </div>
+            <p class="recognition"><span aria-hidden="true">✳</span><span>Zhejiang Provincial Government Scholarship <b>October 2026</b></span></p>
+          </div>
+        </div>
+        <div class="shell skills-section">
+          <div class="skills-heading"><h3>Tools of the trade.</h3><p>A toolkit built through project work.</p></div>
+          <div class="skill-grid">
+            <div class="skill-group"><span class="skill-number">01</span><h4>Model &amp; simulate</h4><p>PLECS · MATLAB · LTspice</p></div>
+            <div class="skill-group"><span class="skill-number">02</span><h4>Design &amp; build</h4><p>KiCad · CAD · SolidWorks<br>Soldering · Hardware testing</p></div>
+            <div class="skill-group"><span class="skill-number">03</span><h4>Program &amp; integrate</h4><p>C / C++ · Python · Verilog<br>Arduino · STM32</p></div>
+            <div class="skill-group"><span class="skill-number">04</span><h4>Sense &amp; control</h4><p>PID · FFT · OpenCV<br>I²C · UART</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section section-space shell" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <div><p class="eyebrow section-index">03 / RESEARCH &amp; INDUSTRY</p><h2 id="experience-title">Learning in<br><em>the real world.</em></h2></div>
+          <p class="section-intro">From winding prototypes in the lab<br> to reviewing drawings for industry.</p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-row">
+            <div class="experience-date"><span>JUN — AUG 2026</span><span class="experience-type">Research</span></div>
+            <div class="experience-main"><h3>Yongjiang Laboratory</h3><p class="experience-role">Motor &amp; Control Research Group</p><p>Studied high-frequency motor winding losses, designed Motorette fixtures and conductors in SolidWorks, and built Litz-wire and copper-bar winding prototypes. Participated in loss-separation tests to obtain copper-loss data.</p><ul class="tags" aria-label="Focus areas"><li>Motor losses</li><li>Prototyping</li><li>Experimental testing</li></ul></div>
+            <span class="experience-symbol" aria-hidden="true">01</span>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date"><span>JUN — SEP 2025</span><span class="experience-type">Research</span></div>
+            <div class="experience-main"><h3>SiC multi-active bridge analysis</h3><p class="experience-role">Research project · University of Nottingham Ningbo China</p><p>Built component-loss models and a PLECS triple-active-bridge converter simulation. Investigated phase-shift control, zero-voltage switching, and differences between theoretical and simulated losses.</p><ul class="tags" aria-label="Focus areas"><li>PLECS</li><li>SiC devices</li><li>Loss modelling</li></ul></div>
+            <span class="experience-symbol" aria-hidden="true">02</span>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date"><span>DEC 2024 — FEB 2025</span><span class="experience-type type-industry">Internship</span></div>
+            <div class="experience-main"><h3>Yongneng Electric Power Industry Investment</h3><p class="experience-role">Power Distribution Design Intern</p><p>Supported 10 kV and 0.4 kV distribution design, drafting and revising 37 CAD drawings. Compared equipment specifications and helped prepare design documentation, checking clearances, grounding requirements, and load margins.</p></div>
+            <span class="experience-symbol" aria-hidden="true">03</span>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date"><span>JUN — SEP 2024</span><span class="experience-type type-industry">Internship</span></div>
+            <div class="experience-main"><h3>Zhejiang Jinben Auto Parts</h3><p class="experience-role">Product Department Intern</p><p>Inspected wheel-hub dimensions, surface finish, and tolerances. Reviewed 62 drawings across four product models, corrected parameter errors, and maintained product records linking design to production.</p></div>
+            <span class="experience-symbol" aria-hidden="true">04</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="beyond-section section-space" aria-labelledby="beyond-title">
+        <div class="shell">
+          <div class="beyond-heading"><div><p class="eyebrow section-index">04 / BEYOND THE CIRCUIT</p><h2 id="beyond-title">An engineer.<br><em>And a person.</em></h2></div><p>Good ideas don’t only happen at a desk.</p></div>
+          <div class="beyond-grid">
+            <div class="leadership-card"><p class="eyebrow">PEOPLE &amp; COMMUNITY</p><h3>Making things happen,<br>together.</h3><p>As Marketing Director of UNNC’s Science &amp; Engineering Student Association, I led a team that secured <strong>¥22,580</strong> in event sponsorship.</p><p>I also served as an Admissions Coordinator, introducing university life to prospective students through presentations and outreach.</p><div class="leadership-award"><span aria-hidden="true">✳</span><span>UNNC Award for Outstanding Student Leaders<small>May 2025</small></span></div></div>
+            <div class="interests-list">
+              <div class="interest"><span class="interest-icon" aria-hidden="true">♫</span><div><h3>Finding a rhythm</h3><p>Piano &amp; guitar</p></div><span class="interest-index">01</span></div>
+              <div class="interest"><svg class="interest-icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="m5 31 13-22 6 11 4-7 9 18H5Z" stroke="currentColor" stroke-width="1.5"/><path d="m13 18 5 5 5-5" stroke="currentColor" stroke-width="1.5"/></svg><div><h3>Keeping moving</h3><p>Climbing, archery, basketball &amp; badminton</p></div><span class="interest-index">02</span></div>
+              <div class="interest"><svg class="interest-icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M6 12h7l3-4h8l3 4h7v21H6V12Z" stroke="currentColor" stroke-width="1.5"/><circle cx="20" cy="22" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M29 16h2" stroke="currentColor" stroke-width="1.5"/></svg><div><h3>Looking a little closer</h3><p>Photography</p></div><span class="interest-index">03</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="shell contact-layout">
+          <div><p class="eyebrow section-index">05 / LET’S CONNECT</p><h2 id="contact-title">Have an idea<br>worth <em>building?</em><span class="contact-spark" aria-hidden="true">✳</span></h2><p>I’m happy to talk about engineering, research,<br>and interesting things to make.</p></div>
+          <div class="contact-details"><span class="contact-label">FIND ME IN YOUR INBOX</span><a class="email-link" href="mailto:ssyhd1@nottingham.edu.cn">ssyhd1@<br>nottingham.edu.cn<span aria-hidden="true">↗</span></a><div class="contact-actions"><a class="button button-lime" href="mailto:ssyhd1@nottingham.edu.cn">Say hello <span aria-hidden="true">↗</span></a><button class="copy-email" type="button" data-copy-email hidden>Copy email <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="7" y="7" width="10" height="11" rx="1" stroke="currentColor"/><path d="M12 5V2H2v11h3" stroke="currentColor"/></svg></button></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="shell footer-inner"><a class="footer-name" href="#home">Han Dong <span lang="zh-CN">董寒</span></a><p>Curious by nature. An engineer in the making.</p><a class="back-top" href="#home">Back to top <span aria-hidden="true">↑</span></a><small>© <span id="year">2026</span> Han Dong</small></div></footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-toolbar"><span class="eyebrow">PROJECT NOTES</span><button type="button" class="dialog-close" aria-label="Close project notes"><span aria-hidden="true">×</span></button></div>
+      <div class="dialog-content"></div>
+      <div class="dialog-footer"><span>Han Dong / Selected work</span><button type="button" class="dialog-done">Back to work <span aria-hidden="true">↙</span></button></div>
+    </dialog>
+  </body>
+</html>

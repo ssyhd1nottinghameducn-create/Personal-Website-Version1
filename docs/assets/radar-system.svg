@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#79918b" stroke-opacity=".12"/></pattern><linearGradient id="sweep" x1="90" y1="100" x2="230" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#557c6e" stop-opacity=".35"/><stop offset="1" stop-color="#557c6e" stop-opacity="0"/></linearGradient></defs>
+  <path fill="#dfe9e4" d="M0 0h640v400H0z"/><path fill="url(#grid)" d="M0 0h640v400H0z"/>
+  <g transform="translate(178 199)" stroke="#869c8c"><circle r="104"/><circle r="76"/><circle r="48"/><circle r="19"/><path d="M-116 0h232M0-116v232" stroke-dasharray="3 5"/><path d="M0 0V-103a103 103 0 0 1 87 48L0 0Z" fill="url(#sweep)" stroke="none"/><path d="m0 0 65-81" stroke="#345c47" stroke-width="2"/><circle cx="39" cy="-49" r="6" fill="#385c43" stroke="#dfe9e4" stroke-width="3"/><circle cx="39" cy="-49" r="13" stroke="#385c43" stroke-dasharray="2 3"/></g>
+  <path d="M287 199h45" stroke="#486d54" stroke-width="1.5"/><path d="m325 194 8 5-8 5" stroke="#486d54" stroke-width="1.5"/>
+  <rect x="348" y="107" width="238" height="185" rx="10" fill="#21382d"/><rect x="362" y="121" width="210" height="124" rx="4" fill="#172d24" stroke="#698465"/>
+  <path d="M372 152h190M372 183h190M372 214h190M410 131v104m38-104v104m38-104v104m38-104v104" stroke="#3f5b45" stroke-opacity=".55"/>
+  <path d="M372 185c10 0 10-34 22-34s11 68 24 68 11-68 24-68 11 68 24 68 11-68 24-68 11 68 24 68 11-68 24-68 11 34 24 34" stroke="#d2ed5e" stroke-width="2"/>
+  <circle cx="550" cy="268" r="5" fill="#d2ed5e"/><path d="M368 265h45m-45 6h30" stroke="#7d9775" stroke-width="2"/>
+  <g font-family="Consolas,monospace" font-size="11" letter-spacing="1.5" fill="#50695a"><text x="112" y="338">DETECT MOTION</text><text x="366" y="338">EXTRACT THE SIGNAL</text></g>
+  <g stroke="#83998a"><path d="M80 79h16M88 71v16m496 239h16m-8-8v16"/></g>
+</svg>

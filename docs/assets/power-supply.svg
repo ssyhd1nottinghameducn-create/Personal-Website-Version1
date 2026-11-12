@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="450" viewBox="0 0 760 450" fill="none">
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#6f8270" fill-opacity=".3"/></pattern><linearGradient id="coil" x1="0" x2="1"><stop stop-color="#b26a3d"/><stop offset=".45" stop-color="#edbb80"/><stop offset="1" stop-color="#a96a40"/></linearGradient></defs>
+  <path fill="#e3e8db" d="M0 0h760v450H0z"/><path fill="url(#grid)" d="M0 0h760v450H0z"/>
+  <ellipse cx="383" cy="296" rx="230" ry="55" fill="#afbd9d" fill-opacity=".35"/>
+  <path d="m112 240 260-112 273 116-263 121-270-125Z" fill="#1d3428" stroke="#69825a"/><path d="M112 240v16l270 125v-16L112 240Zm270 125 263-121v16L382 381v-16Z" fill="#182b22" stroke="#69825a"/>
+  <path d="m153 246 52-23 61 26 53-24m130 25 63 28 73-34M382 338v-27m-181-58 72 33 43-20" stroke="#a6bd72" stroke-width="3"/>
+  <path d="m287 205 76-33 103 45v68l-77 35-102-47v-68Z" fill="#35473a" stroke="#83947c"/>
+  <path d="m287 205 102 45 77-33M389 250v70" stroke="#9bac90"/>
+  <path d="m313 194 50-22 74 32-50 23-74-33Z" fill="#4b5b48"/>
+  <path d="M315 205v69l14 6v-69m0-11v80l14 6v-80m0-12v92l14 6v-92m0-11v103l14 6V205m0-10v103l14 6V211" stroke="url(#coil)" stroke-width="10" stroke-linejoin="round"/>
+  <path d="m405 247 49-23v48l-49 23v-48Z" fill="#1c3025" stroke="#72856c"/>
+  <g stroke="#d6e3b5" stroke-width="1.5"><path d="m208 197 44 19v31l-44-19v-31Z" fill="#273b2c"/><path d="m208 197 13-6 44 19-13 6m13-6v31l-13 6" fill="#40533b"/><path d="m208 214-14 6m34 19v14m14-10v14"/></g>
+  <g transform="translate(506 209)"><path d="M-22 0v48c0 14 44 14 44 0V0" fill="#849b60" stroke="#354c32"/><ellipse rx="22" ry="10" fill="#c7d7a4" stroke="#354c32"/><path d="M-9 0H9M0-5v10" stroke="#526944"/><path d="M-10 56v14m20-14v14" stroke="#3b4e33"/></g>
+  <g stroke="#6d805c"><path d="M193 200 140 133H73m314 44V91m129 123 63-81h108"/><circle cx="193" cy="200" r="3" fill="#20372e"/><circle cx="387" cy="177" r="3" fill="#20372e"/><circle cx="516" cy="214" r="3" fill="#20372e"/></g>
+  <g fill="#45543e" font-family="Consolas,monospace" font-size="12" letter-spacing="1.5"><text x="73" y="118">SWITCH</text><text x="345" y="76">TRANSFORM</text><text x="590" y="118">FILTER</text></g>
+  <path d="M51 332h82l21-15v30l21-30v30l21-15h35" stroke="#68814d" stroke-width="1.5"/><path d="M583 332h105" stroke="#68814d" stroke-width="1.5"/><g fill="#6d805c" font-family="Consolas,monospace" font-size="10" letter-spacing="2"><text x="72" y="371">SWITCHING IN</text><text x="588" y="371">DC OUT</text></g>
+</svg>
